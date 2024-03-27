@@ -1,5 +1,5 @@
-def frontendImage="<nazwa_repozytorium>/frontend"
-def backendImage="<nazwa_repozytorium>/backend"
+def frontendImage="Frontend/frontend"
+def backendImage="Backend/backend"
 def dockerRegistry=""
 def registryCredentials="dockerhub"
 def backendDockerTag = ""
@@ -50,7 +50,7 @@ pipeline {
     post{
         always{
             sh " docker-compose down"
-            cleanWS()
+            cleanWs()
         }
     }
 }
