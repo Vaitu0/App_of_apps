@@ -1,5 +1,5 @@
-def frontendImage="Vaitu0/Frontend"
-def backendImage="Vaitu0/Backend"
+def frontendImage="vaitu/frontend"
+def backendImage="vaitu/backend"
 def dockerRegistry=""
 def registryCredentials="dockerhub"
 def backendDockerTag = ""
