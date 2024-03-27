@@ -42,10 +42,10 @@ pipeline {
                 }
             }
         }    
-    parameters {
-        string 'backendDockerTag'
-        string 'frontendDockerTag'
-    }
+        parameters {
+            string 'backendDockerTag'
+            string 'frontendDockerTag'
+        }
   }
     post{
         always{
